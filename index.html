@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Caclulatrice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <script src="script.js"></script> 
+  </head>
+  <body>
+      <table border="1">
+           <tr>
+             <td colspan="3"><input id="output"/></td>
+             <td><button onclick="effacer()">c</button></td>
+           </tr>
+           <tr>
+             <td><button onclick="afficher('1')">1</button></td>
+             <td><button onclick="afficher('2')">2</button></td>
+             <td><button onclick="afficher('3')">3</button></td>
+             <td><button onclick="afficher('+')">+</button></td>
+           </tr>
+           <tr>
+             <td><button onclick="afficher('4')">4</button></td>
+             <td><button onclick="afficher('5')">5</button></td>
+             <td><button onclick="afficher('6')">6</button></td>
+             <td><button onclick="afficher('-')">-</button></td>
+           </tr>
+           <tr>
+             <td><button onclick="afficher('7')">7</button></td>
+             <td><button onclick="afficher('8')">8</button></td>
+             <td><button onclick="afficher('9')">9</button></td>
+             <td><button onclick="afficher('*')">*</button></td>
+           </tr>
+           <tr>
+             <td><button onclick="afficher('.')">.</button></td>
+             <td><button onclick="afficher('0')">0</button></td>
+             <td><button onclick="calculer()">=</button></td>
+             <td><button onclick="afficher('/')">/</button></td>
+           </tr>
+      </table>
+    </body>
+</html> 
